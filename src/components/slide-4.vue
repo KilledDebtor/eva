@@ -16,7 +16,6 @@
             type="text"
             placeholder="Имя"
             v-model="name"
-            @change="sendFake"
             @focus="stopFake = true"
           >
 
@@ -27,7 +26,6 @@
             type="tel"
             name="phone"
             placeholder="Телефон"
-            @change="sendFake"
             @focus="stopFake = true"
           >
 
